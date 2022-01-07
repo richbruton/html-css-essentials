@@ -11,7 +11,7 @@
 body {
     font-family: 'Prompt', sans-serif;
     font-weight: 300;
-    color: crimson;
+    color: black;
 }
 
 /* Headings and logos */
@@ -19,4 +19,33 @@ h1,
 h2 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
+    color: brown;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 20px;
+}
+
+/* Navbar */
+#navbar,
+#logo {
+    line-height: 50px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 150%;
+}
+
+#navbar a {
+    color: brown;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    border: solid 1px brown;
 }
