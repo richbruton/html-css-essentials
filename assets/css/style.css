@@ -75,3 +75,26 @@ h2 {
 }
 
 /* about section */
+
+/* Schedule section */
+
+#schedule-image img {
+    float: left;
+    height: 350px;
+    width: 50%;
+    margin-left: 0;
+}
+
+#schedule-table {
+    height: 350px;
+}
+
+#schedule-table table {
+    text-align: center;
+    float: right;
+    height: 200px;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+}
