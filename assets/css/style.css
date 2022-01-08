@@ -59,10 +59,19 @@ h2 {
 /* Main image */
 
 #mainimage {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url(../images/mainimage.jpeg) no-repeat center center;
     overflow: hidden;
+    position: relative;
+}
+
+#mainimage h2 {
+    color: white;
+    background-color: rgba(132, 65, 18, 0.5);
+    bottom: 50px;
+    left: 50px;
+    position: absolute;
 }
 
 /* about section */
