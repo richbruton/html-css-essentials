@@ -45,6 +45,7 @@ h2 {
 #navbar li {
     float: right;
     list-style-type: none;
+    display: inline;
     margin-right: 20px;
     font-size: 150%;
 }
@@ -117,7 +118,19 @@ i {
 }
 
 /* signup section */
+#signup {
+    height: 350px;
+}
 
+form {
+    float: left;
+    width: 50%;
+}
+
+form input {
+    border: #844112 1px solid;
+    display: block;
+}
 
 /* footer */
 footer {
@@ -129,16 +142,10 @@ footer {
 footer i {
     color: white;
     font-size: larger;
-    padding: 50px;
+    letter-spacing: 5vh;
 }
 
 footer li {
     list-style-type: none;
     display: inline;
-}
-
-#social {
-    line-height: 50px;
-    text-align: center;
-
 }
