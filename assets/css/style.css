@@ -88,6 +88,7 @@ h2 {
 i {
     color: #844112;
 }
+
 /* Schedule section */
 
 #schedule-image img {
@@ -113,4 +114,31 @@ i {
 
 #schedule-table th {
     text-decoration: underline;
+}
+
+/* signup section */
+
+
+/* footer */
+footer {
+    height: 150px;
+    background-color: #844112;
+    color: white;
+}
+
+footer i {
+    color: white;
+    font-size: larger;
+    padding: 50px;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+}
+
+#social {
+    line-height: 50px;
+    text-align: center;
+
 }
