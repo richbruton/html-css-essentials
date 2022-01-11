@@ -106,35 +106,41 @@
     </section>
     <!-- Sign up form -->
     <section id="signup">
-        <form action="get" action="contact.html">
-            <h2>Join us</h2>
+        <div id="signupform">
+            <form action="get" action="contact.html">
+                <h2>Join us</h2>
+                <p>Please select which themed night you will attend first</p>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name" required>
 
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name" required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name" required>
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required>
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required>
+                <label for="pourover">Pour Over</label>
+                <input type="radio" id="pourover" name="event_attendance" value="pourover" required>
 
-            <label for="pourover">Pour Over</label>
-            <input type="checkbox" id="pourover" name="event_attendance" value="pourover" required>
+                <label for="latte_art">Latte Art</label>
+                <input type="radio" id="latte_art" name="event_attendance" value="latte_art">
 
-            <label for="latte_art">Latte Art</label>
-            <input type="checkbox" id="latte_art" name="event_attendance" value="latte_art">
+                <label for="espresso">Espresso</label>
+                <input type="radio" id="espresso" name="event_attendance" value="espresso">
 
-            <label for="espresso">Espresso</label>
-            <input type="checkbox" id="espresso" name="event_attendance" value="espresso">
+                <label for="comptetion">Competition</label>
+                <input type="radio" id="competition" name="event_attendance" value="competition">
 
-            <label for="comptetion">Competition</label>
-            <input type="checkbox" id="competition" name="event_attendance" value="competition">
-
-            <input type="submit" value="Join now">
-        </form>
-
+                <input id="join" type="submit" value="Join now">
+            </form>
+        </div>
+        <div id="signupimage">
+            <img src="assets/images/welcome.jpeg"
+                alt="Ethnic woman holding a 'welcome, we are open' sign outside a cafe">
+        </div>
+        <i class="fas fa-coffee"></i>
     </section>
-    <i class="fas fa-coffee"></i>
+
 
     <!-- footer -->
 

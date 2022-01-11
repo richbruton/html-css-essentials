@@ -119,10 +119,12 @@ i {
 
 /* signup section */
 #signup {
-    height: 350px;
+    height: 400px;
+    margin-bottom: 25px;
 }
 
-form {
+#signupform {
+    height: 400px;
     float: left;
     width: 50%;
 }
@@ -130,11 +132,33 @@ form {
 form input {
     border: #844112 1px solid;
     display: block;
+    margin: auto;
+}
+
+
+#join {
+    background-color: #844112;
+    color: white;
+    font-size: xx-large;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#join:hover {
+    background-color: #0a620a;
+    color: white;
+    font-size: xx-large;
+}
+
+#signupimage img {
+    float: right;
+    height: 400px;
+    width: 50%;
 }
 
 /* footer */
 footer {
-    height: 150px;
+    height: 125px;
     background-color: #844112;
     color: white;
 }
@@ -148,4 +172,5 @@ footer i {
 footer li {
     list-style-type: none;
     display: inline;
+    line-height: 125px;
 }
