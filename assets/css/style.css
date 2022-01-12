@@ -125,7 +125,7 @@ i {
 }
 
 #signupform {
-    height: 400px;
+    height: 450px;
     float: left;
     width: 50%;
 }
@@ -143,6 +143,8 @@ form input {
     font-size: xx-large;
     border-radius: 2px;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #join:hover {
@@ -214,11 +216,19 @@ footer li {
     #signupimage img {
         width: 100%;
         margin-top: 10px;
+        margin-bottom: 125px;
     }
 
-    #footer {
-        position: absolute;
+    footer {
+        position: fixed;
         bottom: 0;
         width: 100%;
+    }
+}
+
+/* Screens smaller than 450px */
+@media screen and (max-width:450px) {
+    #navbar li {
+        margin-right: 0;
     }
 }
