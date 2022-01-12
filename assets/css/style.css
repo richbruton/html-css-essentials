@@ -45,7 +45,7 @@ h2 {
 #navbar li {
     float: right;
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
     font-size: 150%;
 }
@@ -119,8 +119,9 @@ i {
 
 /* signup section */
 #signup {
-    height: 400px;
+    height: 450px;
     margin-bottom: 25px;
+
 }
 
 #signupform {
@@ -161,6 +162,9 @@ footer {
     height: 125px;
     background-color: #844112;
     color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 footer i {
@@ -173,4 +177,48 @@ footer li {
     list-style-type: none;
     display: inline;
     line-height: 125px;
+}
+
+/* Screens smaller than 960px */
+@media screen and (max-width:960px) {
+    #navbar {
+        float: left;
+    }
+
+    #navbar li {
+        float: right;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    #about {
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #schedule-image img {
+        width: 100%;
+    }
+
+    #schedule-table table {
+        width: 100%;
+    }
+
+    #signupform {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #signupimage img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }
