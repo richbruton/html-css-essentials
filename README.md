@@ -1,4 +1,4 @@
-# Monthly Barista Community Competition
+# Maynooth Coffee CLub
 
 This website is aimed at professional and amateur baristas, as well as coffee enthusiasts. It is for people who wish to both improve their skills and techniques and those who wish to share their ideas and recipes. 
 
@@ -25,5 +25,7 @@ Testing was completed on a laptop, an ipad and an iphone using Chrome, Safari an
 # Credits
 
 Photos came from [pexels.com](https://www.pexels.com/)
+
 Fonts were taken from [Google Fonts](https://fonts.google.com/)
+
 The coffee cup icons and social media icons came from [Font Awesome](https://fontawesome.com/)
