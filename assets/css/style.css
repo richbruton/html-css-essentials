@@ -161,7 +161,7 @@ form input {
 
 /* footer */
 footer {
-    height: 125px;
+    height: 100px;
     background-color: #844112;
     color: white;
     position: relative;
@@ -178,7 +178,7 @@ footer i {
 footer li {
     list-style-type: none;
     display: inline;
-    line-height: 125px;
+    line-height: 100px;
 }
 
 /* Screens smaller than 960px */
@@ -216,7 +216,7 @@ footer li {
     #signupimage img {
         width: 100%;
         margin-top: 10px;
-        margin-bottom: 125px;
+        margin-bottom: 100px;
     }
 
     footer {
