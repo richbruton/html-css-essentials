@@ -45,7 +45,6 @@ h2 {
 #navbar li {
     float: right;
     list-style-type: none;
-    display: inline-block;
     margin-right: 20px;
     font-size: 150%;
 }
@@ -196,7 +195,6 @@ footer li {
 
     #navbar li {
         float: right;
-        display: inline-block;
         margin-left: 20px;
         margin-bottom: 10px;
     }
