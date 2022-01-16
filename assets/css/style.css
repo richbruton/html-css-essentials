@@ -90,6 +90,14 @@ i {
     color: #844112;
 }
 
+#mobile {
+    visibility: hidden;
+}
+
+#desktop {
+    visibility: visible;
+}
+
 /* Schedule section */
 
 #schedule-image img {
@@ -135,7 +143,6 @@ form input {
     display: block;
     margin: auto;
 }
-
 
 #join {
     background-color: #844112;
@@ -217,6 +224,14 @@ footer li {
         width: 100%;
         margin-top: 10px;
         margin-bottom: 100px;
+    }
+
+    #mobile {
+        visibility: visible;
+    }
+
+    #desktop {
+        visibility: hidden;
     }
 
     footer {
