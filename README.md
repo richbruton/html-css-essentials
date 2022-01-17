@@ -4,6 +4,8 @@ This website is aimed at professional and amateur baristas, as well as coffee en
 
 The website will inform them of monthly meetups where they can share ideas, each meetup will have a theme in different areas of coffee preparation. There will be a competition or challenge in the final meet up of each month. 
 
+![Responsive](assets/docs/responsive.png)
+
 # Design
 
 This website is design around blocks. Two large screen width blocks sitting over four half screen width blocks.
@@ -56,13 +58,29 @@ The footer contains logos of the social media sites, and each one links to the a
 
 After a few events have taken place, there will be scope to build a gallery. The gallery will focus on people at the events and the coffees created at the events. 
 
-
-
 # Testing
 
-Testing was completed on a laptop, an ipad and an iphone using Chrome, Safari and Edge
+The site's HTML code was run through the W3C HTML Validator. It returned zero errors.
+
+![Html Vallidation](assets/docs/html-validator.png)
+
+The site's CSS code was run through the W3C CSS Validator. It returned zero errors.
+
+![CSS Validation](assets/docs/css-validator.png)
+
+In developer tools in Google Chrome, a lighthouse report was generated. This returned a favourable result.
+
+![Lighthouse](assets/docs/lighthouse.png)
+
+It did suggest that there is room to improve on image aspect ratios. This is something that can be improved on with great understanding of CSS.
+
+![Image aspect ratio](assets/docs/image-aspect-ratio.png)
+
+Further testing was completed on a laptop, an ipad and an iphone using Chrome, Safari and Edge. 
 
 # Deployment
+
+The site was deployed on github and hosted on gitpages
 
 # Credits
 
