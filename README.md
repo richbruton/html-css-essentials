@@ -26,13 +26,37 @@ The navigation bar sits in the header floated to the right of the logo, as the s
 
 ## About Section
 
+The about section sits below the landing image. It is a brief introduction to the site and the purpose of the site. It lets first time visitors know what to expect and to remind returning visitors that they can give back to the group by sharing their knowledge. 
 
+It has a margin on either side to prevent the content looking stringy on a wide screen but as the screen sizes down this margin disappears.
+
+![About section](assets/docs/about.png)
 
 ## Meeting Schedule
 
+The meeting schedule, is a table that displays the time, date, location and topic for meetings for the next month. The site currently displays the meetings for February. This will require manual updating each month. 
+
+There is a link to the sign up form that is only visible on smaller devices, as the form can still be hidden at this point.
+
+![Schedule table](assets/docs/schedule-table.png)
+
 ## Sign up form
 
+The sign up form contains a required first name, a required second name, a required email address, and a radio type selection of events. Initially it was to be a checkbox set of options but that proved difficult to create a required attribute for it using only HTML and CSS. This is something that will be improved on after the site goes live.
+
+![Sign up form](assets/docs/form.png)
+
+## Footer
+
+The footer contains logos of the social media sites, and each one links to the account of the Maynooth Coffee Club for that social media site. On smaller sized devices, the footer is static, this is due to a bug where the logos and links would remain at the bottom of the page and appear invisible against a blank background and the brown background would jump up the page.
+
+![Footer](assets/docs/footer.png)
+
 ## Future features
+
+After a few events have taken place, there will be scope to build a gallery. The gallery will focus on people at the events and the coffees created at the events. 
+
+
 
 # Testing
 
