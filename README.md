@@ -20,11 +20,13 @@ The websites feature include; a header with a logo and a navigation bar, a landi
 
 ## Navigation bar
 
-The navigation bar 
+The navigation bar sits in the header floated to the right of the logo, as the screen gest smaller it drops below the logo and the font size gets slightly smaller on the smaller screens. The menu allows the user to quikly jump down to a particular section. It will mostly be for returning users who are interested in going straight to that month's schedule or sign up form.
 
 ![Navigation Bar](assets/docs/navbar.png)
 
 ## About Section
+
+
 
 ## Meeting Schedule
 
