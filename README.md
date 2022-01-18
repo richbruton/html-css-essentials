@@ -80,7 +80,15 @@ Further testing was completed on a laptop, an ipad and an iphone using Chrome, S
 
 # Deployment
 
-The site was deployed on github and hosted on gitpages
+The site was deployed on github pages. The deployment process was
+
+1. Open the project in Github
+
+2. Click on settings and navigate to pages.
+
+3. Select branch : Main.
+
+4. Click save.
 
 # Credits
 
