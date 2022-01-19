@@ -20,7 +20,7 @@ The returning user has already learnt about the group and is keen to attend meet
 
 In this case the site owners are a group of cafe owners in a medium sized town. After a year or more restrictions they are face with many challenges. A lot of their customers have both home brewing equipment, they want to connect with these customers so that they return. They may not return as frequently for a cup of coffee but they can buy their beans from the local cafes.
 
-ANother challenge faced by the cafe owners is that they are struggling to hire staff. These meetings can act as informal training sessions for anybody who is looking to gt a job in a cafe, it will give them a chance to improve their skills and to meet potential future employers.
+Another challenge faced by the cafe owners is that they are struggling to hire staff. These meetings can act as informal training sessions for anybody who is looking to gt a job in a cafe, it will give them a chance to improve their skills and to meet potential future employers.
 
 # Design
 
@@ -74,6 +74,10 @@ The footer contains logos of the social media sites, and each one links to the a
 
 After a few events have taken place, there will be scope to build a gallery. The gallery will focus on people at the events and the coffees created at the events. 
 
+# Bugs
+
+Initially the plan was to run a form that had series of checkboxes that were required to fill out, so that a user could submit to attend a number of combinations of events. Upon research, it was learnt that to have `required` as an attribute wasn't possible using only HTML and CSS. Javascript would be required to implement such a feature in the form. As a work around, Radio type inputs were used instead of checkboxes. While only one option can be chosen now, it is required. Users can return to the site to sign up to subesquent events to declare their intentions at one of the meetings.
+
 # Testing
 
 The site's HTML code was run through the W3C HTML Validator. It returned zero errors.
@@ -92,7 +96,21 @@ It did suggest that there is room to improve on image aspect ratios. This is som
 
 ![Image aspect ratio](assets/docs/image-aspect-ratio.png)
 
-Further testing was completed on a laptop, an ipad and an iphone using Chrome, Safari and Edge. 
+# Manual Testing
+
+Further testing was completed on a laptop, an ipad and an iphone using Chrome, Safari and Edge. The reuqired parts of the form all work as intended. Since it is a dummy form the JOIN NOW button brings the user to a "Thank you for signing up" page that contains a link back to the index.
+
+## First time user
+
+When using the site, the first time user is greeted with an image of a cup of coffee that in in keeping with the colours used on the site. The about section explains the purpose of the group, that it is social and about upskilling. There is also a chance to show others the skills you have picked up on the way. 
+
+On desktop, the top of the schedule is visible to encourage them to scroll down. On mobile, the navigation bar has a clear link to the section with the schedule and another to the sign up form.
+
+## Returning user
+
+The returning user has already learnt about the site so when they return they are looking for exact information. The link to the schedule and to the sign up form is their target. These links are visibile on desktop as soon as they land on the page. If they are on desktop and are looking at the schedule, they can see the top of the sign up form. This will encourage them to scroll down. 
+
+If they are using a mobile screen and the form is not visibile from teh schedule section a link appears to bring them down to that section. This link does not appear on larger screens.
 
 # Deployment
 
@@ -127,3 +145,7 @@ Photos came from [pexels.com](https://www.pexels.com/)
 Fonts were taken from [Google Fonts](https://fonts.google.com/)
 
 The coffee cup icons and social media icons came from [Font Awesome](https://fontawesome.com/)
+
+# Acknowledgements
+
+A big thank you to Jack Wachira, for all of his input throughout this project.
