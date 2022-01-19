@@ -1,10 +1,26 @@
-# Maynooth Coffee CLub
+# Maynooth Coffee Club
 
 This website is aimed at professional and amateur baristas, as well as coffee enthusiasts. It is for people who wish to both improve their skills and techniques and those who wish to share their ideas and recipes. 
 
 The website will inform them of monthly meetups where they can share ideas, each meetup will have a theme in different areas of coffee preparation. There will be a competition or challenge in the final meet up of each month. 
 
 ![Responsive](assets/docs/responsive.png)
+
+# User Stories
+
+## First time user
+
+A first time user is a person who has taken interest in making a higher level of coffee at home, perhaps after buying new equipment, who is looking to learn new skills but isn't sure where to start. Another first time user is somebody who is keen to upskill in order to get a job in a cafe as a barista. Both types of user have an interest in learning more about different brewing techniques and to meet other people with similar interests.
+
+## Returning user
+
+The returning user has already learnt about the group and is keen to attend meetings, their primary goal is to see when and where meetings are taking place and what topics are being covered. They will also want to be able to inform the organisers which events they can attend. 
+
+## Site owners
+
+In this case the site owners are a group of cafe owners in a medium sized town. After a year or more restrictions they are face with many challenges. A lot of their customers have both home brewing equipment, they want to connect with these customers so that they return. They may not return as frequently for a cup of coffee but they can buy their beans from the local cafes.
+
+ANother challenge faced by the cafe owners is that they are struggling to hire staff. These meetings can act as informal training sessions for anybody who is looking to gt a job in a cafe, it will give them a chance to improve their skills and to meet potential future employers.
 
 # Design
 
@@ -80,7 +96,7 @@ Further testing was completed on a laptop, an ipad and an iphone using Chrome, S
 
 # Deployment
 
-The site was deployed on github pages. The deployment process was
+## The site was deployed on github pages. The deployment process was
 
 1. Open the project in Github
 
@@ -89,6 +105,20 @@ The site was deployed on github pages. The deployment process was
 3. Select branch : Main.
 
 4. Click save.
+
+## To run locally, the deployment process is
+
+1. Navigate to the site's [repository](https://github.com/richbruton/html-css-essentials)
+
+2. Click on the code button.
+
+3. Copy the URL under Clone with HTTPS by clicking on the copy button.
+
+4. Open the terminal in your IDE, and navigate to the directory intended for use.
+
+5. Type `git clone` into the terminal followed but the copied url link form Step 3. It should look like this `git clone https://github.com/richbruton/html-css-essentials.git`
+
+6. Press enter to clone the repository.
 
 # Credits
 
